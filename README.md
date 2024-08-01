@@ -12,7 +12,7 @@
 
 - **校园经历：** 担任 OctoStudio 队长，致力于推动服务于八爪生物的技术创新和项目开发。
 
-**Github：** [github.com/octocat](https://github.com/octocat)   |  **个人博客：** [tanghw9827.github.io](https://tanghw9827.github.io/)
+**Github：** [github.com/tanghw9827](https://github.com/tanghw9827)   |  **个人博客：** [tanghw9827.github.io](https://tanghw9827.github.io/)
 
 ## 专业技能
 
