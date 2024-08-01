@@ -1,207 +1,53 @@
-<div align="center">
-  <br>
+# 唐华文
 
-  <a href="https://github.com/jeffreytse/jekyll-theme-yat">
-    <img alt="jekyll-theme-yat →~ jekyll" src="https://user-images.githubusercontent.com/9413601/106478481-346fdf00-64e4-11eb-9385-1ab5329c3234.png" width="600">
-  </a>
+> 电话：`18374898915`       邮箱：`1477514699@qq.com`
 
-  <h1>JEKYLL YAT THEME</h1>
+<!-- <img src="https://avatars.githubusercontent.com/u/583231?v=4" alt="avatar"> -->
 
+## 教育信息
+
+### 八爪科技大学 - 本科 - 软件工程专业   (2008.02 - 2024.06)
+
+- **曾获奖项：** GitHub 认证八爪编码员，敏捷章鱼实践者
+
+- **校园经历：** 担任 OctoStudio 队长，致力于推动服务于八爪生物的技术创新和项目开发。
+
+**Github：** [github.com/octocat](https://github.com/octocat)   |  **个人博客：** [octocat.github.io](https://octocat.github.io)
+
+## 专业技能
+
+- **熟练掌握多种编程语言，包括 Octolang，OctoScript 等**，对**面向对象**和**函数式编程范式**有很好的理解，专注于编写清晰，高效，可维护的代码。
+- **出色的沟通和语言能力，无论八爪生物抑或来自不同地区的猫**，都能进行有效的团队合作和清晰技术概念沟通。
+- **扎实的软件开发原理，数据结构和算法理解**，熟悉计算机底层原理。
+- **在版本控制方面有丰富的经验**，熟练管理代码库、解决合并冲突，并促进代码审议。
+
+## 工作经验
+
+<div style="display: flex; justify-content: space-between;">
+    <h3>软件开发实习生 - 八爪科技</h3> <span style="text-align: right">2008.06 - 2008.08</span>
 </div>
+- 与软件工程师团队合作，**使用 Octolang 开发数据可视化仪表盘**，为海洋保护工作提供八爪种群趋势的洞察。
+- **参与会议和代码审议，按照敏捷章鱼论交付高质量的软件，在紧迫的截止日期内完成任务。**
+- **协助解决技术问题，展现解决问题的技巧和在快节奏环境下积极主动解决挑战的态度。**为项目需求、架构设计和编码标准的文档撰写做出贡献，促进团队成员间的知识共享和新成员的快速适应。
 
-<h4 align="center">
-  <a href="https://jekyllrb.com/" target="_blank"><code>Jekyll</code></a> theme for elegant writers.
-</h4>
+## 项目经历
 
-<p align="center">
-  <a href="https://jeffreytse.github.io/jekyll-theme-yat">
-    <img src="https://github.com/jeffreytse/jekyll-theme-yat/workflows/Github%20Pages/badge.svg"
-      alt="Github Pages" />
-  </a>
+### GitFlix - [github.com/octocat/gitflix](https://github.com/octocat/gitflix)
 
-  <a href="https://badge.fury.io/rb/jekyll-theme-yat">
-    <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"
-      alt="Gem Version" />
-  </a>
+- **全栈 Web 应用程序，前端使用 Octo.js，后端使用 OctoScript**，允许用户发现和评价八爪生物主题电影。
+- **实现了一个复杂的推荐算法**，分析八爪生物的偏好和观影历史，为八爪生物跨多个流派提供八爪主题的电影推荐，确保了个性化和吸引人的内容发现。
+- **使用 JSON Web Tokens 和 bcrypt 实现用户身份验证和授权**，用于安全密码哈希。**利用 GitHub Actions 进行持续集成和部署**，确保流畅高效的开发工作流程。
 
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg"
-      alt="License: MIT" />
-  </a>
+### OctoConnect - [github.com/octocat/octo-connect](https://github.com/octocat/octo-connect)
 
-  <a href="https://liberapay.com/jeffreytse">
-    <img src="https://img.shields.io/liberapay/goal/jeffreytse.svg?logo=liberapay"
-      alt="Donate (Liberapay)" />
-  </a>
+- 团队项目，**使用 OctoDB 和 Octolang 创建八爪生物社交平台**。
+- **设计八爪风格的用户个人资料和互动功能**，例如**基于触手的消息传递**和**墨水喷溅反应**，以促进全球八爪生物和猫之间的社区参与。
+- **集成 OAuth 认证，与 GitHub 账户进行同步**，为 Octocat 和其他在 GitHub 上活跃的八爪生物提供无缝登录和个人资料同步。
 
-  <a href="https://patreon.com/jeffreytse">
-    <img src="https://img.shields.io/badge/support-patreon-F96854.svg?style=flat-square"
-      alt="Donate (Patreon)" />
-  </a>
 
-  <a href="https://ko-fi.com/jeffreytse">
-  <img height="20" src="https://www.ko-fi.com/img/githubbutton_sm.svg"
-  alt="Donate (Ko-fi)" />
-  </a>
-</p>
+### OctoGitHubber - [github.com/octocat/octo-githubber](https://github.com/octocat/octo-githubber)
 
-<div align="center">
-  <sub>Built with ❤︎ by
-  <a href="https://jeffreytse.net">jeffreytse</a> and
-  <a href="https://github.com/jeffreytse/jekyll-theme-yat/graphs/contributors">contributors </a>
-  </sub>
-</div>
-
-<br>
-
-Hey, nice to meet you, you found this [Jekyll][jekyll] theme. Here the
-_YAT (Yet Another Theme)_ is a modern responsive theme. It's quite
-clear, clean and neat for writers and posts. **If you are an elegant
-writer and focus on content, don't miss it.**
-
-<p align="center">
-Like this elegant theme? You can give it a star or sponsor me!<br>
-I will respect your crucial support and say THANK YOU!
-</p>
-
-<p align="center">
-
-  <img src="https://user-images.githubusercontent.com/9413601/91842897-6a840b00-ec87-11ea-95ca-52abcc1ac063.png" alt="demo-screenshot" width="100%"/>
-
-</p>
-
-<h4 align="center">BANNER</h4>
-
-<p align="center">
-
-  <img src="https://user-images.githubusercontent.com/9413601/123897812-ae729a00-d996-11eb-96b8-b76ba926f555.gif" alt="demo-screenshot" width="100%"/>
-
-</p>
-
-## Features
-
-- Support beautiful **Night Mode**.
-- Modern responsive web design.
-- Full layouts `home`, `post`, `tags`, `archive` and `about`.
-- Uses font awesome 5 for icons.
-- Beautiful page banner with image and video.
-- Beautiful Syntax Highlight using [highlight.js][highlight-js].
-- Beautiful image gallery previewer using [PhotoSwipe 5][photoswipe-5].
-- RSS support using [Jekyll Feed][jekyll-feed] gem.
-- Optimized for search engines using [Jekyll Seo Tag][jekyll-seo-tag] gem.
-- Sitemap support using [Jekyll Sitemap][jekyll-sitemap] gem.
-- Complex and flexible table support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- MathJAX and LaTeX optional support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Media (Youtube, Spotify, etc.) support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Diagram (PlantUML, Mermaid) support using [Jekyll Spaceship][jekyll-spaceship] gem.
-- Google Translation support.
-- New post tag support.
-- Pin post tag support.
-
-Also, visit the [Live Demo][yat-live-demo] site for the theme.
-
-## Installation
-
-There are three ways to install:
-
-- As a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes).
-- As a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible).
-- Forking/directly copying all of the theme files into your project.
-
-### Gem-based Theme Method
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "jekyll-theme-yat"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: jekyll-theme-yat
-```
-
-And then execute:
-
-```bash
-$ bundle
-```
-
-Or install it yourself as:
-
-```bash
-$ gem install jekyll-theme-yat
-```
-
-### Remote Theme Method with GitHub Pages
-
-Remote themes are similar to Gem-based themes, but do not require `Gemfile` changes or whitelisting making them ideal for sites hosted with GitHub Pages.
-
-To install:
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "github-pages", group: :jekyll_plugins
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
-remote_theme: "jeffreytse/jekyll-theme-yat"
-```
-
-And then execute:
-
-```bash
-$ bundle
-```
-
-### Forking/Cloning the project
-
-You need to update the option of github workflow file `.github/workflows/build-jekyll.yml`, especially to ensure the value of `jekyll_baseurl` is correct.
-
-### GitHub Pages without limitation
-
-GitHub Pages runs in `safe` mode and only allows [a set of whitelisted plugins/themes](https://pages.github.com/versions/). **In other words, the third-party gems will not work normally**.
-
-To use the third-party gem in GitHub Pages without limitation:
-
-Here is a GitHub Action named [jekyll-deploy-action](https://github.com/jeffreytse/jekyll-deploy-action) for Jekyll site deployment conveniently. 👍
-
-## Usage
-
-Add or update your available layouts, includes, sass and/or assets.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_data`, `_layouts`, `_includes`, `_sass` and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `jekyll-theme-yat.gemspec` accordingly.
-
-## Contributing
-
-Issues and Pull Requests are greatly appreciated. If you've never contributed to an open source project before I'm more than happy to walk you through how to create a pull request.
-
-You can start by [opening an issue](https://github.com/jeffreytse/jekyll-theme-yat/issues/new) describing the problem that you're looking to resolve and we'll go from there.
-
-## License
-
-This theme is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © JeffreyTse.
-
-<!-- External links -->
-
-[jekyll]: https://jekyllrb.com/
-[yat-git-repo]: https://github.com/jeffreytse/jekyll-theme-yat/
-[yat-live-demo]: https://jeffreytse.github.io/jekyll-theme-yat/
-[jekyll-spaceship]: https://github.com/jeffreytse/jekyll-spaceship
-[jekyll-seo-tag]: https://github.com/jekyll/jekyll-seo-tag
-[jekyll-sitemap]: https://github.com/jekyll/jekyll-sitemap
-[jekyll-feed]: https://github.com/jekyll/jekyll-feed
-[highlight-js]: https://github.com/highlightjs/highlight.js
-[photoswipe-5]: https://photoswipe.com/
+- **一款专门针对八爪生物的 GitHub 活动和贡献的网络应用程序**，利用 Octo.js 构建前端，Octolang 构建后端。
+- **与 GitHub API 集成，检索和分析八爪生物的存储库统计信息、提交历史和拉取请求活动**，提供个性化的见解和可视化，深入了解八爪生物的开源之旅。
+- **实现了八爪主题的勋章和成就等游戏化元素**，激励和鼓励八爪生物达成编码里程碑，促进持续学习和改进。
+- **设计了响应式和直观的仪表板界面，具有八爪主题的数据可视化**，使八爪生物能够跟踪进度、设定编码目标，并以有趣和吸引人的方式庆祝成就。
