@@ -19,7 +19,7 @@
 
 <ul>
     <li>掌握 <strong>C++、Python、Matlab</strong> 等多种编程语言，熟悉 <strong>Ubuntu、ROS2</strong> 开发。</li>
-    <li>熟悉 <strong>Hybrid A*</strong>、RRT*、Lattice Planner、EM Planner 等规划算法。</li>
+    <li>熟悉 <strong>Hybrid A*、RRT*、Lattice Planner、EM Planner</strong>等规划算法。</li>
     <li>熟悉 <strong>QP、iLQR、DDP</strong> 等优化算法，掌握 <strong>OSQP、IPopt、iLQR</strong> 等求解器的使用。</li>
     <li>熟悉车辆运动学特性、动力学建模，掌握 <strong>PID、LQR、MPC</strong> 等控制算法。</li>
     <li>了解博弈论相关知识，熟悉 <strong>FSM、POMDP、RLHF</strong> 等决策模型。</li>
