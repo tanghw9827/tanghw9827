@@ -14,10 +14,14 @@
 
 ## 专业技能
 
-- **熟练掌握多种编程语言，包括 Octolang，OctoScript 等**，对**面向对象**和**函数式编程范式**有很好的理解，专注于编写清晰，高效，可维护的代码。
-- **出色的沟通和语言能力，无论八爪生物抑或来自不同地区的猫**，都能进行有效的团队合作和清晰技术概念沟通。
-- **扎实的软件开发原理，数据结构和算法理解**，熟悉计算机底层原理。
-- **在版本控制方面有丰富的经验**，熟练管理代码库、解决合并冲突，并促进代码审议。
+<ul>
+    <li>掌握 <strong>C++、Python、Matlab</strong> 等多种编程语言，熟悉 <strong>Ubuntu、ROS2</strong> 开发。</li>
+    <li>熟悉 <strong>Hybrid A*、RRT*、Lattice Planner、EM Planner</strong> 等规划算法。</li>
+    <li>熟悉 <strong>QP、iLQR、DDP</strong> 等优化算法，掌握 <strong>OSQP、IPopt、iLQR</strong> 等求解器的使用。</li>
+    <li>熟悉车辆运动学特性、动力学建模，掌握 <strong>PID、LQR、MPC</strong> 等控制算法。</li>
+    <li>了解博弈论相关知识，熟悉 <strong>FSM、POMDP、RLHF</strong> 等决策模型。</li>
+    <li>拥有 <strong>3 年驾驶经验</strong>，熟悉驾驶过程中的难点。</li>
+</ul>
 
 ## 实习工作
 
