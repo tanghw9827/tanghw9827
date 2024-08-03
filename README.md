@@ -27,12 +27,12 @@
 ## 实习工作
 
 ### 自动驾驶算法工程师 - 速腾聚创  (2024.04 - 2024.08)
-- 负责参考线功能新特性开发，包括**参考线绕行**静态障碍物、通过匝道、无变道路口等复杂场景，**无图版本**下参考线的适配，以及接入**决策NN先验**的参考线生成
-- 实现控制模块的性能优化，包括**车辆运动学和动力学**参数及加速度和转角响应时间的**系统辨识**，以及**MPC误差权重参数自整定**下的横纵向轨迹跟踪误差优化
-- 研究**contingency-planning**下基于场景树构建的自车轨迹优化，包括自车策略定义下的**场景树构建**，**多意图优化**问题的求解，以及最优轨迹的获取
+- 负责参考线功能新特性开发，包括**参考线绕行**静态障碍物、通过匝道、无变道路口等复杂场景，**无图版本**下参考线的适配，以及接入**决策NN先验**的参考线生成（[Github Repository](https://github.com/tanghw9827/reference_line_provider)）
+- 实现控制模块的性能优化，包括**车辆运动学和动力学**参数及加速度和转角响应时间的**系统辨识**，以及**MPC误差权重参数自整定**下的横纵向轨迹跟踪误差优化（[Github Repository](https://github.com/tanghw9827/Controller_performance_optimization)）
+- 研究**contingency-planning**下基于场景树构建的自车轨迹优化，包括自车策略定义下的**场景树构建**，**多意图优化**问题的求解，以及最优轨迹的获取（[Github Repository](https://github.com/tanghw9827/contingency-planning)）
 
 ### 汽车工艺开发工程师 - 广汽埃安  (2019.07 - 2021.06)
-- 负责新车型与改款车型**总装工艺的设计开发**与自动化的**设备导入及改造调试**
+- 负责新车型与改款车型**总装工艺的设计开发**与自动化**设备的导入及改造调试**
 - 完成了Aion S、Aion LX两款**改款车型**，Aion Y、Aion V两款**新车型**的工艺开发工作
 
 ## 项目经历
@@ -42,11 +42,11 @@
 - **控制算法：** Pure Pursuit，Stanley，纵向串级 PID，横向 LQR，横纵向 MPC
 - **规划算法**：A\*，Hybrid A\*，RRT\*，参考线 OSQP 平滑，EM Planner，Lattice Planner
 
-### 时空联合轨迹优化
-- 通过多决策模块输出的场景树**构建时空联合规划问题**，包括模型的建立（交互目标的筛选、联合状态的建立）以及potential的初始化
+### 时空联合轨迹优化 - [github.com/tanghw9827/space_time_optimization](https://github.com/tanghw9827/space_time_optimization)
+- 通过多决策模块输出的场景树**构建联合规划问题**，包括模型的建立（交互目标的筛选、联合状态的建立）以及potential的初始化
 - 基于iLQR求解优化问题，输出优化后自车和keyagents各时刻的**输入序列U_list​和状态序列X_list**
 
-### 轨迹预测与跟踪控制（研究生课题）
+### 轨迹预测与跟踪控制（研究生课题）- [github.com/tanghw9827/trajectory_prediction](https://github.com/tanghw9827/trajectory_prediction)
 - 使用LSTM神经网络对五轴数控机床的输出轨迹进行预测
 - 基于时延同步迭代学习控制算法，实现轨迹跟踪控制
 - **论文：** (Major revision)An iterative contouring error compensation scheme for five-axis machine tools based on motion synchronization control（IEEE/ASME TMECH）（SCI 一区，IF=6.1）
