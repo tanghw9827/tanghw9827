@@ -18,10 +18,10 @@
 ## 专业技能
 
 - 掌握 **C++、Python、Matlab** 等多种编程语言，熟悉 **Ubuntu、ROS2** 开发
-- 熟悉 **Hybrid A***、**RRT***、**Lattice Planner**等规划算法，以及 **QP**、**iLQR** 等优化算法（[Blog page](https://tanghw9827.github.io/2024/08/01/%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/)）
+- 熟悉 **Hybrid A***、**RRT***、**Lattice Planner** 等规划算法，以及 **QP**、**iLQR** 等优化算法（[Blog page](https://tanghw9827.github.io/2024/08/01/%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/)）
 - 熟悉车辆运动学特性、动力学建模，掌握 **PID**、**LQR**、**MPC** 等控制算法
 - 熟悉 **FSM**、**POMDP**、**RLHF** 等决策模型
-- 拥有 **3年** 驾驶经验，熟悉驾驶过程中的难点
+- 拥有**3年**驾驶经验，熟悉驾驶过程中的难点
 
 
 ## 实习工作
