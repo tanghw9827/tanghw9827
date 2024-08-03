@@ -28,7 +28,7 @@
 
 ### 自动驾驶算法工程师 - 速腾聚创  (2024.04 - 2024.08)
 - 负责参考线功能新特性开发，包括**参考线绕行**静态障碍物、通过匝道、无变道路口等复杂场景，**无图版本**下参考线的适配，以及接入**决策NN先验**的参考线生成（[Github Repository](https://github.com/tanghw9827/reference_line_provider)）
-- 实现控制模块的性能优化，包括**车辆运动学和动力学**参数及加速度和转角响应时间的**系统辨识**，以及**MPC误差权重参数自整定**下的横纵向轨迹跟踪误差优化（[Github Repository](https://github.com/tanghw9827/Controller_performance_optimization)）
+- 实现控制模块的性能优化，包括**车辆运动学和动力学**参数及加速度和转角响应时间的**系统辨识**，以及**MPC误差权重参数自整定**下的横纵向轨迹跟踪误差优化（[Github Repository](https://github.com/tanghw9827/controller_performance_optimization)）
 - 研究**contingency-planning**下基于场景树构建的自车轨迹优化，包括自车策略定义下的**场景树构建**，**多意图优化**问题的求解，以及最优轨迹的获取（[Github Repository](https://github.com/tanghw9827/contingency-planning)）
 
 ### 汽车工艺开发工程师 - 广汽埃安  (2019.07 - 2021.06)
