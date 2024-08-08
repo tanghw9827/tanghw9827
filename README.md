@@ -18,18 +18,18 @@
 ## 专业技能
 
 - 掌握 **C++、Python、Matlab** 等多种编程语言，熟悉 **Ubuntu、ROS2** 开发
-- 熟悉 **Hybrid A***、**RRT***、**Lattice Planner**、**EM Plannner** 等规划算法，以及 **QP**、**SQP**、**IPM** 等优化算法，掌握**OSQP**、**Ipopt**、**iLQR** 等求解器的使用（[Blog Paper](https://tanghw9827.github.io/2024/08/02/%E8%A7%84%E5%88%92%E7%AE%97%E6%B3%95%E4%B8%B2%E8%AE%B2/)）
-- 熟悉车辆运动学特性、动力学建模，掌握 **PID**、**LQR**、**MPC** 等控制算法（[Blog Paper](https://tanghw9827.github.io/2024/08/01/%E6%8E%A7%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86/)）
-- 熟悉 **FSM**、**POMDP**、**RLHF** 等决策模型（[Blog Paper](https://tanghw9827.github.io/2024/08/03/%E5%86%B3%E7%AD%96%E6%A8%A1%E5%9E%8B%E6%A6%82%E8%BF%B0/)）
+- 熟悉 **Hybrid A***、**RRT***、**Lattice Planner**、**EM Plannner** 等规划算法，以及 **QP**、**SQP**、**IPM** 等优化算法，掌握**OSQP**、**Ipopt**、**iLQR** 等求解器的使用
+- 熟悉车辆运动学特性、动力学建模，掌握 **PID**、**LQR**、**MPC** 等控制算法
+- 熟悉 **FSM**、**POMDP**、**RLHF** 等决策模型
 - 拥有**3年**驾驶经验，熟悉驾驶过程中的难点
 
 
 ## 实习工作
 
 ### 自动驾驶算法工程师 - 速腾聚创  (2024.04 - 2024.08)
-- 负责参考线功能新特性开发，包括**参考线绕行**静态障碍物、通过匝道、无变道路口等复杂场景，**无图版本**下参考线的适配，以及接入**决策NN先验**的参考线生成（[Github Repository](https://github.com/tanghw9827/reference_line_provider)）
-- 实现控制模块的性能优化，包括**车辆运动学和动力学**参数及加速度和转角响应时间的**系统辨识**，以及**MPC误差权重参数自整定**下的横纵向轨迹跟踪误差优化（[Github Repository](https://github.com/tanghw9827/controller_performance_optimization)）
-- 研究**contingency-planning**下基于场景树构建的自车轨迹优化，包括自车策略定义下的**场景树构建**，**多意图优化**问题的求解，以及最优轨迹的获取（[Github Repository](https://github.com/tanghw9827/contingency-planning)）
+- 负责参考线功能新特性开发，包括**参考线绕行**静态障碍物、通过匝道、无变道路口等复杂场景，**无图版本**下参考线的适配，以及接入**决策NN先验**的参考线生成
+- 实现控制模块的性能优化，包括**车辆运动学和动力学**参数及加速度和转角响应时间的**系统辨识**，以及**MPC误差权重参数自整定**下的横纵向轨迹跟踪误差优化
+- 研究**contingency-planning**下基于场景树构建的自车轨迹优化，包括自车策略定义下的**场景树构建**，**多意图优化**问题的求解，以及最优轨迹的获取
 
 ### 汽车工艺开发工程师 - 广汽埃安  (2019.07 - 2021.06)
 - 负责新车型与改款车型**总装工艺的设计开发**与自动化**设备的导入及改造调试**
