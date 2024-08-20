@@ -19,7 +19,7 @@
 - 熟悉 **Hybrid A***、**RRT***、**Lattice Planner**、**EM Plannner** 等规划算法，以及 **QP**、**SQP**等优化算法，掌握**OSQP**、**Ipopt**、**iLQR** 等求解器的使用
 - 熟悉车辆运动学特性、动力学建模，掌握 **PID**、**LQR**、**MPC** 等控制算法
 - 熟悉 **FSM**、**MDP**、**POMDP**、**Game Theoy** 等决策模型
-- 了解 **Diffusion、UniGen、Trajeglish** 等⽣成式模型，熟悉 **UniAd、VADv2** 等端到端⾃动驾驶框架
+- 了解 **Diffusion、UniGen、Trajeglish** 等⽣成式模型，熟悉 **UniAd、VADv2** 等端到端框架
 
 ## 实习工作
 
