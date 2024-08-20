@@ -4,7 +4,6 @@
 > 
 > **Github**: [github.com/tanghw9827](https://github.com/tanghw9827)  **个人博客**: [tanghw9827.github.io](https://tanghw9827.github.io)
 >
-<img src="camera.jpg" alt="avatar">
 
 ## 教育信息
 
