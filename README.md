@@ -37,7 +37,7 @@
 - 通过多决策模块输出的场景树**构建联合规划问题**，包括模型的建立（交互目标的筛选、联合状态的建立）以及potential的初始化
 - 基于**iLQR**求解优化问题，输出优化后自车和keyagents各时刻的**输入序列U_list​和状态序列X_list**
 
-###  规划控制算法部署
+###  基于Carla-ROS2的联合仿真
 - 使用 **Carla 和 ROS2** 部署规划控制常用算法，并在 carla_ad_demo 场景中运行
 - **控制算法：** Pure Pursuit，Stanley，纵向串级 PID，横向 LQR，横纵向 MPC，RBF神经网络前馈控制
 - **规划算法**：A\*，Hybrid A\*，RRT\*，参考线 OSQP 平滑，EM Planner，Lattice Planner
