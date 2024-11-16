@@ -46,4 +46,4 @@
 - 使用**LSTM神经网络**对输出轨迹进行预测
 - 基于时延同步**迭代学习控制算法**，实现轨迹跟踪控制
 - **论文：An iterative contouring error compensation scheme for five-axis machine tools based on motion synchronization control（IEEE/ASME TMECH）**（SCI 一区，一作，IF=6.1）
-- **专利：** 一种基于时延同步的多轴联动轮廓误差控制方法：中国，CN202410113133.3 [P].2022-03-23.
+- **专利：** 一种基于时延同步的多轴联动轮廓误差控制方法：中国，CN202410113133.3 [P].2024-03-23.
