@@ -43,7 +43,7 @@
 - **规划算法**：A\*，Hybrid A\*，RRT\*，参考线 OSQP 平滑，EM Planner，Lattice Planner
 
 ### 轨迹预测与跟踪控制（研究生课题）
-- 使用**LSTM神经网络**对五轴数控机床的输出轨迹进行预测
+- 使用**LSTM神经网络**对输出轨迹进行预测
 - 基于时延同步**迭代学习控制算法**，实现轨迹跟踪控制
 - **论文：An iterative contouring error compensation scheme for five-axis machine tools based on motion synchronization control（IEEE/ASME TMECH）**（SCI 一区，一作，IF=6.1）
 - **专利：** 一种基于时延同步的多轴联动轮廓误差控制方法：中国，CN202410113133.3 [P].2022-03-23.
