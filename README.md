@@ -23,7 +23,7 @@
 
 ## 实习工作
 
-### 自动驾驶算法工程师 - 速腾聚创  (2024.04 - 2024.08)
+### 自动驾驶算法工程师 - 华为车BU  (2024.04 - 2024.08)
 - 负责参考线功能新特性开发，包括**参考线绕行**静态障碍物、通过匝道、无变道路口等复杂场景，**无图版本**下参考线的适配，以及接入**决策NN先验**的参考线生成，最终实现无图版本下接入网络预测轨迹的参考线生成
 - 实现控制模块的性能优化，包括**车辆运动学和动力学**参数及加速度和转角响应时间的**系统辨识**，以及**MPC误差权重参数自整定**下的横纵向轨迹跟踪误差优化，最终使得最大航向角误差减小了**58.4%**，最大横向误差减小了**19.2%**
 - 研究**contingency-planning**下基于场景树构建的自车轨迹优化，包括自车策略定义下的**场景树构建**，**多意图优化**问题的求解，以及最优轨迹的获取，最终实现小gap下的变道、cut-in下的轨迹优化、路口前的效率变道等功能
@@ -45,5 +45,5 @@
 ### 轨迹预测与跟踪控制（研究生课题）
 - 使用**LSTM神经网络**对五轴数控机床的输出轨迹进行预测
 - 基于时延同步**迭代学习控制算法**，实现轨迹跟踪控制
-- **论文：** (Major revision)An iterative contouring error compensation scheme for five-axis machine tools based on motion synchronization control（IEEE/ASME TMECH）**（SCI 一区，一作，IF=6.1）**
+- **论文：An iterative contouring error compensation scheme for five-axis machine tools based on motion synchronization control（IEEE/ASME TMECH）**（SCI 一区，一作，IF=6.1）**
 - **专利：** 一种基于时延同步的多轴联动轮廓误差控制方法：中国，CN202410113133.3 [P].2022-03-23.
