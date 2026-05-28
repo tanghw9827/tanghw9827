@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>唐华文 - 简历</title>
+<style>
+  @page {
+    size: A4;
+    margin: 14mm 16mm;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    font-family: "Inter", "Helvetica Neue", "Segoe UI", "Microsoft YaHei", "微软雅黑", "PingFang SC", sans-serif;
+    font-size: 10pt;
+    line-height: 1.5;
+    color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ===== 头部 ===== */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .header-left { flex: 1; padding-right: 16px; }
+  .header-right { flex-shrink: 0; }
+  .photo {
+    width: 26mm;
+    height: 33mm;
+    object-fit: cover;
+    border-radius: 2px;
+  }
+
+  .name {
+    font-size: 24pt;
+    font-weight: 700;
+    color: #1a1a1a;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    margin-bottom: 6px;
+  }
+
+  .contact {
+    font-size: 9.3pt;
+    color: #444;
+    line-height: 1.75;
+  }
+  .contact .row { display: block; }
+  .contact .label { color: #666; font-weight: 600; }
+  .contact .value {
+    color: #1a1a1a;
+    font-family: "JetBrains Mono", "Consolas", "SF Mono", monospace;
+    background: #f3f4f6;
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 9pt;
+    margin-right: 10px;
+  }
+  .contact a {
+    color: #2563eb;
+    text-decoration: none;
+    font-family: "JetBrains Mono", "Consolas", monospace;
+    font-size: 9pt;
+  }
+
+  /* ===== 章节标题 ===== */
+  h2.section {
+    font-size: 12.5pt;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 12px 0 6px 0;
+    padding: 3px 0 3px 9px;
+    border-left: 3px solid #2563eb;
+    border-bottom: 1px solid #e5e7eb;
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* ===== 子条目（公司 / 学校 / 项目） ===== */
+  .item {
+    margin: 4px 0 6px 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+  }
+  .item-title {
+    font-size: 10.5pt;
+    font-weight: 700;
+    color: #1a1a1a;
+  }
+  .item-meta {
+    font-size: 9pt;
+    color: #6b7280;
+    font-family: "JetBrains Mono", "Consolas", monospace;
+    flex-shrink: 0;
+    margin-left: 12px;
+  }
+
+  /* ===== 列表 ===== */
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    position: relative;
+    padding-left: 13px;
+    margin: 3px 0;
+    text-align: justify;
+    line-height: 1.55;
+  }
+  ul li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 0.65em;
+    width: 4px;
+    height: 4px;
+    background: #2563eb;
+    border-radius: 50%;
+  }
+
+  /* 嵌套（荣誉行） */
+  ul ul li {
+    margin: 1px 0;
+    color: #4b5563;
+    font-size: 9.5pt;
+  }
+  ul ul li::before {
+    background: transparent;
+    border: 1px solid #9ca3af;
+    width: 3px;
+    height: 3px;
+  }
+
+  /* ===== 强调与代码片段 ===== */
+  strong { color: #111; font-weight: 700; }
+  code {
+    font-family: "JetBrains Mono", "Consolas", monospace;
+    background: #f3f4f6;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-size: 9pt;
+    color: #1a1a1a;
+  }
+
+  /* ===== 教育信息：紧凑版 ===== */
+  .edu-item .item-title { font-size: 10pt; }
+  .edu-honor {
+    color: #4b5563;
+    font-size: 9.5pt;
+    margin-top: 1px;
+  }
+
+  /* ===== 段落 ===== */
+  p { margin: 2px 0; line-height: 1.55; text-align: justify; }
+
+  /* 防止首章节被上推 */
+  .header { page-break-after: avoid; }
+
+  /* ===== 子项目（公司下的多个项目） ===== */
+  .sub-item {
+    margin: 6px 0 2px 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+  .sub-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2px;
+  }
+  .sub-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #111;
+  }
+  .sub-time {
+    font-size: 8.8pt;
+    color: #6b7280;
+    font-family: "JetBrains Mono", "Consolas", monospace;
+    flex-shrink: 0;
+    margin-left: 12px;
+  }
+  .honor {
+    margin-top: 2px;
+    padding-left: 13px;
+    color: #6b7280;
+    font-size: 9.2pt;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ 头部 ============ -->
+<div class="header">
+  <div class="header-left">
+    <div class="name">唐华文</div>
+    <div class="contact">
+      <span class="row">
+        <span class="label">电话</span>：<span class="value">18374898915</span>
+        <span class="label">邮箱</span>：<span class="value">1477514699@qq.com</span>
+      </span>
+      <span class="row">
+        <span class="label">政治面貌</span>：<span class="value">中共党员</span>
+        <span class="label">出生年月</span>：<span class="value">1998-10</span>
+      </span>
+      <span class="row">
+        <span class="label">Github</span>：<a href="https://github.com/tanghw9827">github.com/tanghw9827</a>
+        &nbsp;&nbsp;<span class="label">个人博客</span>：<a href="https://tanghw9827.github.io">tanghw9827.github.io</a>
+      </span>
+    </div>
+  </div>
+  <div class="header-right">
+    <img class="photo" src="photo_compressed.jpg" alt="证件照">
+  </div>
+</div>
+
+<!-- ============ 教育信息 ============ -->
+<h2 class="section">教育信息</h2>
+
+<div class="item edu-item">
+  <div class="item-header">
+    <div class="item-title">哈尔滨工业大学（深圳） · 硕士 · 控制科学与工程 <span style="color:#6b7280;font-weight:500;font-size:9.5pt;">（985 双一流）</span></div>
+    <div class="item-meta">2022.09 – 2025.03</div>
+  </div>
+</div>
+
+<div class="item edu-item">
+  <div class="item-header">
+    <div class="item-title">湖南大学 · 本科 · 车辆工程 <span style="color:#6b7280;font-weight:500;font-size:9.5pt;">（985 双一流）</span></div>
+    <div class="item-meta">2015.09 – 2019.06</div>
+  </div>
+  <div class="edu-honor"><strong>荣誉奖励：</strong>国家励志奖学金、校一等奖学金、英语四六级、美国大学生数学建模竞赛一等奖</div>
+</div>
+
+<!-- ============ 专业技能 ============ -->
+<h2 class="section">专业技能</h2>
+<ul>
+  <li>掌握 <strong>C++、Python、Matlab</strong> 等多种编程语言，熟悉 <strong>Ubuntu、ROS2</strong> 开发</li>
+  <li>熟悉 <strong>Hybrid A*</strong>、<strong>RRT*</strong>、<strong>Lattice Planner</strong>、<strong>EM Planner</strong> 等规划算法，以及 <strong>QP</strong>、<strong>SQP</strong> 等优化算法，掌握 <strong>OSQP</strong>、<strong>Ipopt</strong>、<strong>iLQR</strong> 等求解器的使用</li>
+  <li>熟悉车辆运动学特性、动力学建模，掌握 <strong>PID</strong>、<strong>LQR</strong>、<strong>MPC</strong> 等控制算法</li>
+  <li>熟悉 <strong>FSM</strong>、<strong>MDP</strong>、<strong>POMDP</strong>、<strong>Game Theory</strong> 等决策模型</li>
+  <li>了解 <strong>Diffusion、Pluto</strong> 等端到端模型，熟悉 <strong>UniAD、VADv2</strong> 等端到端框架</li>
+</ul>
+
+<!-- ============ 工作经历 ============ -->
+<h2 class="section">工作经历</h2>
+
+<div class="item">
+  <div class="item-header">
+    <div class="item-title">自动驾驶算法工程师 · 科大讯飞</div>
+    <div class="item-meta">2025.04 – 至今</div>
+  </div>
+
+  <div class="sub-item">
+    <div class="sub-header">
+      <div class="sub-title">速度决策与规划</div>
+      <div class="sub-time">2025.04 – 2025.11</div>
+    </div>
+    <ul>
+      <li>实现基于<strong>卡尔曼滤波</strong>的预测轨迹后处理；基于<strong>时空联合交互优化</strong>的变道博弈与 cut-in 识别以及基于<strong>贝叶斯模型</strong>的 cut-in 识别</li>
+      <li>完成基于 <strong>A* 搜索</strong>的速度决策与<strong>多 ref 联合优化</strong>的速度规划；舒适性泛化指标 <strong>3.84 → 0.43 次/100km</strong>，安全接管泛化指标 <strong>2.12 → 0.20 次/100km</strong>，变道成功率 <strong>87% → 98%</strong></li>
+    </ul>
+    <div class="honor">试用期绩效 A（前 5%）、2025 届优秀校招生、2025 Q3 最佳新锐奖、奇瑞 M32T 项目攻关之星；职级 2-2 → 2-3</div>
+  </div>
+
+  <div class="sub-item">
+    <div class="sub-header">
+      <div class="sub-title">基于三维 DP 搜索的时空联合参考轨迹生成</div>
+      <div class="sub-time">2025.11 – 2026.03</div>
+    </div>
+    <ul>
+      <li>在 <strong>SLT 三维时空空间</strong>中通过 <strong>DP 搜索</strong>，设计横向偏移/平滑度、纵向速度跟踪/加加速度及障碍物碰撞 sigmoid 代价</li>
+      <li>通过<strong>加速度约束下的纵向可达域 + 最大横向位移可达域</strong>对问题进行剪枝，直接求解时空联合最优轨迹；安全接管泛化指标 <strong>0.20 → 0.10 次/100km</strong>，路口通行成功率 <strong>94.2% → 97.8%</strong></li>
+    </ul>
+    <div class="honor">2025 Q4 绩效 A（前 5%）、2025 年度绩效 A（前 5%）、2025 年度飞车新秀奖、一汽奔腾 E541 项目攻关之星</div>
+  </div>
+
+  <div class="sub-item">
+    <div class="sub-header">
+      <div class="sub-title">端到端模型及时空联合交互优化后处理</div>
+      <div class="sub-time">2026.03 – 至今</div>
+    </div>
+    <ul>
+      <li>基于<strong>障碍物决策导向规划模型</strong>输出自车多模态轨迹与他车决策意图及预测轨迹</li>
+      <li>以自车多模态轨迹为参考、他车横纵决策意图为<strong>半平面纵向约束</strong>与<strong>三圆盘横向避让约束</strong>的方向依据，构建多决策联合优化问题，通过 <strong>iLQR</strong> 求解自车与关键障碍物的联合运动学最优解</li>
+      <li>以安全/效率/导航/舒适性 + 模型置信度代价加权评分，筛选最优场景轨迹执行</li>
+    </ul>
+    <div class="honor">2026 Q1 绩效 B（前 10%）、碰撞及误制动专项达成成就；职级 2-3 → 3-1</div>
+  </div>
+</div>
+
+<!-- ============ 实习工作 ============ -->
+<h2 class="section">实习工作</h2>
+
+<div class="item">
+  <div class="item-header">
+    <div class="item-title">自动驾驶算法工程师 · 百度</div>
+    <div class="item-meta">2023.11 – 2024.01</div>
+  </div>
+  <ul>
+    <li>在 Apollo 决策规划框架下，针对汇入强博弈场景搭建决策评估体系：基于他车预测轨迹与道路拓扑识别汇入障碍物并生成候选 <strong>Gap</strong>，逐 Gap 构建时空约束对自车轨迹簇剪枝；以"安全汇入所需让行减速度"为核心安全指标，结合体感与通行效率等辅助代价构建<strong>加权评分模型</strong>，完成 Gap 优先级排序与最优汇入时机筛选，最终将 Gap 约束与决策结果下发至 <strong>iLQR</strong> 完成轨迹优化</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <div class="item-title">自动驾驶算法工程师 · 速腾聚创</div>
+    <div class="item-meta">2024.04 – 2024.08</div>
+  </div>
+  <ul>
+    <li>负责参考线功能新特性开发，包括<strong>参考线绕行</strong>静态障碍物、通过匝道、无变道路口等复杂场景，<strong>无图版本</strong>下参考线的适配，以及接入<strong>决策 NN 先验</strong>的参考线生成，最终实现无图版本下接入网络预测轨迹的参考线生成</li>
+    <li>实现控制模块的性能优化，包括<strong>车辆运动学和动力学</strong>参数及加速度和转角响应时间的<strong>系统辨识</strong>，以及 <strong>MPC 误差权重参数自整定</strong>下的横纵向轨迹跟踪误差优化，最终使得最大航向角误差减小了 <strong>58.4%</strong>，最大横向误差减小了 <strong>19.2%</strong></li>
+    <li>研究 <strong>contingency-planning</strong> 下基于场景树构建的自车轨迹优化，包括自车策略定义下的<strong>场景树构建</strong>，<strong>多意图优化</strong>问题的求解，以及最优轨迹的获取，最终实现小 gap 下的变道、cut-in 下的轨迹优化、路口前的效率变道等功能</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <div class="item-title">汽车工艺开发工程师 · 广汽埃安</div>
+    <div class="item-meta">2019.07 – 2021.06</div>
+  </div>
+  <ul>
+    <li>负责新车型与改款车型<strong>总装工艺的设计开发</strong>与自动化<strong>设备的导入及改造调试</strong></li>
+    <li>完成了 Aion S、Aion LX 两款<strong>改款车型</strong>，Aion Y、Aion V 两款<strong>新车型</strong>的工艺开发工作</li>
+  </ul>
+</div>
+
+<!-- ============ 项目经历 ============ -->
+<h2 class="section">项目经历</h2>
+
+<div class="item">
+  <div class="item-header">
+    <div class="item-title">时空联合轨迹优化</div>
+  </div>
+  <ul>
+    <li>通过多决策模块输出的场景树<strong>构建联合规划问题</strong>，包括模型的建立（交互目标的筛选、联合状态的建立）以及 potential 的初始化</li>
+    <li>基于 <strong>iLQR</strong> 求解优化问题，输出优化后自车和 keyagents 各时刻的<strong>输入序列 U_list 和状态序列 X_list</strong></li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <div class="item-title">基于 Carla-ROS2 的联合仿真</div>
+  </div>
+  <ul>
+    <li>使用 <strong>Carla 和 ROS2</strong> 部署规划控制常用算法，并在 carla_ad_demo 场景中运行</li>
+    <li><strong>控制算法：</strong>Pure Pursuit、Stanley、纵向串级 PID、横向 LQR、横纵向 MPC、RBF 神经网络前馈控制</li>
+    <li><strong>规划算法：</strong>A*、Hybrid A*、RRT*、参考线 OSQP 平滑、EM Planner、Lattice Planner</li>
+  </ul>
+</div>
+
+<div class="item">
+  <div class="item-header">
+    <div class="item-title">轨迹预测与跟踪控制（研究生课题）</div>
+  </div>
+  <ul>
+    <li>使用 <strong>LSTM 神经网络</strong>对输出轨迹进行预测</li>
+    <li>基于时延同步<strong>迭代学习控制算法</strong>，实现轨迹跟踪控制</li>
+    <li><strong>论文（已发表）：</strong>An iterative contouring error compensation scheme for five-axis machine tools based on motion synchronization control（IEEE/ASME TMECH，JCR 一区，中科院一区 TOP 期刊，一作，IF = 7.3）</li>
+    <li><strong>专利（已授权）：</strong>一种基于时延同步的多轴联动轮廓误差控制方法：中国，CN202410113133.3 [P]. 2024-03-23（发明专利，二作（导师一作））</li>
+  </ul>
+</div>
+
+</body>
+</html>
