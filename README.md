@@ -23,10 +23,10 @@
 ## 专业技能
 
 - 掌握 **C++、Python、Matlab** 等多种编程语言，熟悉 **Ubuntu、ROS2** 开发
-- 熟悉 **Hybrid A***、**RRT***、**Lattice Planner**、**EM Plannner** 等规划算法，以及 **QP**、**SQP**等优化算法，掌握**OSQP**、**Ipopt**、**iLQR** 等求解器的使用
+- 熟悉 **Hybrid A***、**RRT***、**Lattice Planner**、**EM Planner** 等规划算法，以及 **QP**、**SQP**等优化算法，掌握**OSQP**、**Ipopt**、**iLQR** 等求解器的使用
 - 熟悉车辆运动学特性、动力学建模，掌握 **PID**、**LQR**、**MPC** 等控制算法
-- 熟悉 **FSM**、**MDP**、**POMDP**、**Game Theoy** 等决策模型
-- 了解 **Diffusion、Pluto** 等端到端模型，熟悉 **UniAd、VADv2** 等端到端框架
+- 熟悉 **FSM**、**MDP**、**POMDP**、**Game Theory** 等决策模型
+- 了解 **Diffusion、Pluto** 等端到端模型，熟悉 **UniAD、VADv2** 等端到端框架
 
 ## 工作经历
 
@@ -71,12 +71,17 @@
 
 ## 项目经历
 
-- 参与奇瑞m32t、一汽奔腾e541项目，成功完成量产交付，获得**奇瑞 M32T 项目攻关之星以及一汽奔腾 E541 项目攻关之星**
+- 参与奇瑞 M32T、一汽奔腾 E541 项目，负责速度决策与规划及障碍物决策行为，完成项目定点与量产成功交付
+- 奇瑞 M32T 项目攻关之星、一汽奔腾 E541 项目攻关之星
 
 ## 科研经历
 
 - 使用 LSTM 神经网络对输出轨迹进行预测
 - 基于**时延同步**迭代学习控制算法，实现轨迹跟踪控制
 - **论文（已发表）：** An iterative contouring error compensation scheme for five-axis machine tools based on motion synchronization control（IEEE/ASME TMECH，**JCR 一区，中科院一区 TOP 期刊，一作**，IF = 7.3）
-- **专利（已授权）：** 一种基于时延同步的多轴联动轮廓误差控制方法：中国，CN202410113133.3 [P].2024-03-23.（**发明专利**，二作（导师一作））
+- **发明专利（已授权）：** 一种基于时延同步的多轴联动轮廓误差控制方法：中国，CN202410113133.3 [P].2024-03-23.
+
+## 兴趣爱好
+
+- 羽毛球、乒乓球、摄影
 
